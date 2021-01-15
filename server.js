@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 
 
     res.render('home', {
-        nombre: 'juAn bAas',
+        nombre: 'juAn',
         anio: new Date().getFullYear()
     });
 })
